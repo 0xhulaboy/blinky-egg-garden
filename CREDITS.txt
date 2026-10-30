@@ -1,0 +1,89 @@
+POCKET DRAGONS CREATOR KIT CREDITS
+Version 0.8.0, published 15 October 2026
+
+Pocket Dragons character/world artwork: Godwin original contributions and
+Pocket Dragons composition, as recorded in the supplied-source handoff.
+Canonical 16-species egg set and all eleven Keeper badge discs/painted faces:
+Godwin. Community-kit 2D preparation and decoded badge PNG convenience files:
+Pocket Dragons. Native 2D presentation renders: Pocket Dragons.
+Third-party source contributors retain their rights. No 3D sources are supplied.
+
+BLINKY AND PINKY
+Twenty character renders, Blinky and Pinky in the same ten poses: Godwin
+(X: @plooshGWIN). Supplied 15 October 2026 as 2048 x 2048 transparent PNG;
+the PNG files keep his pixels and transparency unchanged. The WebP files
+and previews are smaller copies made from them.
+
+ADDITIONAL VIEWS AND ORIGINAL SKIES
+Occupied incubator views use the original machine assets. Wall banners, stone braziers and the circular dais
+are flattened renderings of the supplied Hatchery scene; its contributor
+notices below continue to apply. These exports do not grant separate rights
+to source textures or models. Lit braziers use the kit's native flame artwork.
+Day, twilight and night window backgrounds are flattened stills of Pocket
+Dragons' original procedural sky artwork. No renderer code is supplied.
+The source-scene mountain photograph is not included as a standalone asset.
+
+HATCHERY SOURCE-SCENE CONTRIBUTORS
+The supplied scene inventory records the following references. Not every
+reference is necessarily visible in every final image. These credits acknowledge
+the source contributors; they are not an offer of their reusable source files.
+
+- Cloudy sky over the sea — PBR PLAN (BlenderKit / Blendkit Royalty Free).
+- Monkstown Castle — Poly Haven (CC0).
+- Black Paving Cobelstone — Textures Can (BlenderKit / Blendkit Royalty Free).
+- Bronze — Mikhail Zabolotny (BlenderKit / Blendkit Royalty Free).
+- Circular paving — Share Textures (BlenderKit / Blendkit Royalty Free).
+- Grey old stone wall — Steffen (BlenderKit / Blendkit Royalty Free).
+- Paving Stone Brick — PBRPX (CC0).
+- Scattered Moss — Mohammed Hossain (BlenderKit / Blendkit Royalty Free).
+- Slate stone — Mat Karmon (BlenderKit / Blendkit Royalty Free).
+- Stone — James Middleton (BlenderKit / Blendkit Royalty Free).
+- Stone — ydd 3D (BlenderKit / Blendkit Royalty Free).
+- Stone Floor — Steffen (BlenderKit / Blendkit Royalty Free).
+- Stone Wall — Anas KA (BlenderKit / Blendkit Royalty Free).
+- Stone destroyed floor — Sanchos (BlenderKit / Blendkit Royalty Free).
+- Stone floor — Mat Karmon (BlenderKit / Blendkit Royalty Free).
+- Stone pavement — ydd 3D (BlenderKit / Blendkit Royalty Free).
+- Stone wall — ydd 3D (BlenderKit / Blendkit Royalty Free).
+- Mediaval door — Jordi Se-Cam (BlenderKit / Blendkit Royalty Free).
+- Medieval Gate/Door — Dal Roron (BlenderKit / Blendkit Royalty Free).
+- Ritual Pile — Jordi Se-Cam (BlenderKit / Blendkit Royalty Free).
+
+BlenderKit is now named Blendkit. Licence information:
+https://www.blendkit.com/docs/licenses/
+https://www.blendkit.com/docs/licenses/licensing-faq/
+
+IDENTITY AND LETTERING
+The stickers, the logo and the emblem are Pocket Dragons brand art, as
+Pocket Dragons confirmed on 13 October 2026. Pocket Dragons logos, Keeper
+emblems and badges keep their existing identity. The held flag uses the logo
+in Pocket Dragons' native cloth-and-pole composition. Do not infer a Godwin
+credit for that cloth composition.
+
+The community project badge uses outlined Urbanist lettering: Copyright 2021
+The Urbanist Project Authors (SIL Open Font License 1.1). No font files, website
+styles, UI components or code templates are supplied in this art kit.
+
+COMMUNITY PROJECT CREDIT TEMPLATE
+Pocket Dragons community project. Not an official Pocket Dragons product.
+Pocket Dragons artwork, used under the Pocket Dragons Community Noncommercial
+Asset Licence.
+Creator Kit and terms: https://pocketdragons.io/creator-kit
+
+No blanket third-party ownership or official endorsement is claimed.
+
+ILLUSTRATED BLINKY STICKERS
+24 Blinky sticker illustrations, Pocket Dragons brand art, preserved at their
+original 400px or 1200px resolution. No artwork was redrawn or upscaled. Full
+PNG and WebP files preserve the supplied pixels and transparency.
+
+COMMUNITY MUSIC
+Four-Leaf Clover Escape: DJ (X: @bubblegum_dee).
+PD Song From The Panda: Panda (X: @ThePanda_NFT).
+Pocket Dragon (Boxer): Boxer (X: @Boxerr110).
+Credits confirmed by Pocket Dragons on 13 October 2026. Each song stays its
+creator's. To use one in a project, credit its creator and ask the team first.
+
+The downloadable MP3/M4A files preserve the original compressed audio without
+re-encoding. The supplied cover/video tracks and unrelated app metadata are
+not included. The artwork licence (TERMS.txt) does not cover the music.

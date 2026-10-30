@@ -1,0 +1,39 @@
+POCKET DRAGONS COMMUNITY NONCOMMERCIAL ASSET LICENCE
+Version 0.8.0, effective 15 October 2026
+
+WHAT THIS COVERS
+This licence covers only the flattened 2D artwork and identity assets listed in the Creator Kit's release manifest (assets.json). It does not cover other website content, website interfaces, software, private production files, the community music or rights in underlying third-party components. It is in force from 15 October 2026.
+
+It permits noncommercial community use only, on the conditions below.
+
+FREE, NONCOMMERCIAL COMMUNITY PROJECTS
+For the released files, Pocket Dragons grants a non-exclusive, worldwide, royalty-free permission to copy, display and incorporate the artwork into independently named, free noncommercial community websites, games and applications, and related noncommercial screenshots or videos. You keep the rights you hold in your original code, design and other content.
+
+Paid access, paid websites or games, subscriptions, purchases, paid features, advertising, sponsorship, affiliate income, project-linked donations, fundraising and other revenue-generating or commercial uses are outside this permission. Commercial promotion and business use also require separate permission. Contact hello@pocketdragons.io with your project and intended use, and obtain written permission before proceeding. Sending a request does not grant permission.
+
+ADAPT THE ARTWORK; CREATE YOUR OWN INTERFACE
+You may resize proportionally, compress, make reasonable crops, composite the artwork and apply simple 2D motion such as movement, fading or rotation. Keep characters recognizable and preserve their characteristic anatomy, markings and colours. Keeping the full silhouette visible is a design recommendation, not a ban on reasonable crops.
+
+Substantial redraws, new poses or character variants, recolouring or mirroring character art require separate permission. Do not present modified artwork as a new official design. Wordmarks, emblems, flags and badges may be proportionally resized, but their wording, geometry and colours must not be altered beyond supplied variants.
+
+Give your product its own layout, typography, colours, navigation and name. Do not copy the official website interface or imitate official login, account, payment or verification screens. The kit supplies artwork and guidance, not reusable website UI, styles, tokens, fonts or page templates.
+
+MAKE COMMUNITY STATUS CLEAR
+Display either the supplied community-project badge or the text “Pocket Dragons community project”. In an accessible About page, credits screen or footer, also state “Not an official Pocket Dragons product” and credit “Pocket Dragons artwork” with a link to the official community kit and its applicable licence.
+
+The official wordmark, emblem and flag may identify the subject of your project in attribution or decorative artwork. They may not replace your own primary project logo, app icon, name or account identity. Decorative badges are artwork, not proof of rank, eligibility, ownership, verification or official approval. Do not imply sponsorship, partnership or official support.
+
+SHIPPING YOUR PROJECT AND USING AI TOOLS
+You may include artwork actually used by your permitted project in its distribution or public source repository, with the artwork licence, applicable credits and file identities retained. Clearly exclude the artwork and brand marks from your project’s software licence. Do not redistribute the complete kit as an alternative asset library; link to the official kit instead.
+
+You may use ordinary coding and design assistants to build a permitted project. Their involvement does not relax the artwork, identity or noncommercial conditions. This licence supplies no separate permission for model training, fine-tuning or training datasets. Check a tool’s upload and data-use settings before providing artwork; generating new character variants still requires separate permission.
+
+USES REQUIRING SEPARATE WRITTEN PERMISSION
+Contact hello@pocketdragons.io for any commercial or revenue-generating use, merchandise or physical products, branded NFTs or tokens, collectible products for sale, standalone artwork or asset-pack sales, sublicensing, or other uses outside this grant. A community tool that merely displays a collection is assessed by its actual use and monetization; it receives no minting, marketplace or official API permission from this kit.
+
+Do not register Pocket Dragons names or marks as your own trademarks, primary domain or social identity, impersonate Pocket Dragons, or use the artwork for fraud or unlawful content. No private 3D model, scene, rig, animation source, material, texture map, HDR or source package is included or authorized for release.
+
+VERSIONS, CORRECTIONS AND RIGHTS
+Keep the licence version and notices that came with your download. Later terms apply to later releases and do not automatically replace the terms of a previously compliant download. Permission ends for a user who materially breaches the licence and does not cure the breach within 30 days after written notice. If a third-party rights issue is identified, Pocket Dragons may withdraw the affected file and request that its distribution stop. Rights protected by mandatory law remain unaffected.
+
+Pocket Dragons grants only rights it is entitled to grant; third-party rights remain with their owners. The kit does not promise technical support, official promotion, API access, game compatibility, rewards or future value. Issuer: Pocket Dragons FZE LLC. Permission requests: hello@pocketdragons.io.
