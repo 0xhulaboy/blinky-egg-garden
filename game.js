@@ -1,6 +1,10 @@
 const N=8, types=[{image:'egg-lava-card-face-v2.png',name:'Fire'},{image:'egg-space-card-face-v2.png',name:'Magic'},{image:'egg-pink-card-face-v2.png',name:'Pink'},{image:'egg-water-card-face-v2.png',name:'Water'},{image:'egg-tree-card-face-v2.png',name:'Leaf'},{image:'egg-light-card-face-v2.png',name:'Light'}];
 const $=id=>document.getElementById(id), sleep=ms=>new Promise(r=>setTimeout(r,ms));let board=[],score=0,moves=45,selected=-1,busy=false,sound=false,audio;
 const SAVE_KEY='blinky-garden-v2';
+const SOUND_KEY='blinky-sound-v1';
+try{sound=localStorage.getItem(SOUND_KEY)==='on';}catch{}
+function renderSound(){ $('sound').textContent=sound?'♫ Sound on':'♫ Sound off';$('sound').setAttribute('aria-pressed',String(sound));}
+renderSound();
 let level=1,mode='adventure',sessions={},saved=false;
 let dailyDate='',rngState=0,bestCombo=0,dailyBests={};
 const dayKey=()=>new Date().toISOString().slice(0,10);
@@ -151,7 +155,7 @@ async function choose(i){
  save();setBusy(false);
 }
 function reset(){if(busy)return;if(mode==='daily'){dailyDate=dayKey();rngState=seedFor(dailyDate);bestCombo=0;}board=fresh();score=0;moves=mode==='daily'?30:45;selected=-1;$('shareStatus').textContent='';$('shareText').hidden=true;$('result').close();$('speech').textContent='Let’s play together ♡';$('status').textContent='Select two adjacent eggs';render();save()}
-$('board').addEventListener('click',e=>{const cell=e.target.closest('.cell');if(cell)choose(+cell.dataset.i).catch(()=>{selected=-1;board=fresh();setBusy(false);render();save();$('status').textContent='Garden refreshed. Your score is safe.'})});$('hint').onclick=()=>{if(busy||finished())return;selected=-1;render();const pair=possible(board);if(pair)pair.forEach(i=>$('board').children[i].classList.add('hint'));$('status').textContent='Swap the glowing eggs ✧'};$('restart').onclick=reset;$('again').onclick=()=>{if(busy)return;if(mode==='adventure'&&score>=target())level++;reset()};$('sound').onclick=()=>{sound=!sound;$('sound').textContent=sound?'♫ Sound on':'♫ Sound off';note()};
+$('board').addEventListener('click',e=>{const cell=e.target.closest('.cell');if(cell)choose(+cell.dataset.i).catch(()=>{selected=-1;board=fresh();setBusy(false);render();save();$('status').textContent='Garden refreshed. Your score is safe.'})});$('hint').onclick=()=>{if(busy||finished())return;selected=-1;render();const pair=possible(board);if(pair)pair.forEach(i=>$('board').children[i].classList.add('hint'));$('status').textContent='Swap the glowing eggs ✧'};$('restart').onclick=reset;$('again').onclick=()=>{if(busy)return;if(mode==='adventure'&&score>=target())level++;reset()};$('sound').onclick=()=>{sound=!sound;renderSound();try{localStorage.setItem(SOUND_KEY,sound?'on':'off');}catch{}note()};
 $('adventure').onclick=()=>switchMode('adventure');$('zen').onclick=()=>switchMode('zen');$('daily').onclick=()=>switchMode('daily');$('copyResult').onclick=copyResult;$('resultCopy').onclick=()=>{$('result').close();copyResult();};$('closeResult').onclick=()=> $('result').close();
 try{const data=JSON.parse(localStorage.getItem(SAVE_KEY));if(data&&data.sessions){for(const key of ['adventure','zen'])if(valid(data.sessions[key]))sessions[key]=data.sessions[key];if(validDaily(data.sessions.daily)&&data.sessions.daily.date===dayKey())sessions.daily=data.sessions.daily;for(const [date,b] of Object.entries(data.dailyBests||{})){if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&b&&Number.isSafeInteger(b.score)&&b.score>=0&&Number.isSafeInteger(b.combo)&&b.combo>=0)dailyBests[date]=b;}if(data.mode==='zen'||data.mode==='daily')mode=data.mode;}}catch{}
 if(mode==='daily'?validDaily(sessions.daily):valid(sessions[mode])){restore(sessions[mode]);if(!finished()&&!possible(board))board=fresh();render();save();$('status').textContent='Welcome back! Your garden is waiting ♡';if(finished())showResult();}else reset();
